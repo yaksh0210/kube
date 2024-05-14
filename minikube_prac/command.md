@@ -1,4 +1,4 @@
-#### 1) > minikube start  ==> it will run minikube on container (here on docker container)
+#### 1) minikube start  ==> it will run minikube on container (here on docker container)
 
 ```
 output:
@@ -19,7 +19,7 @@ output:
 ```
 
 
-#### 2) > minikube status ==> it will show minikube status if it is running or not 
+#### 2) minikube status ==> it will show minikube status if it is running or not 
 
 ```
 output:
@@ -33,7 +33,7 @@ kubeconfig: Configured
 
 ```
 
-#### 3) > kubectl get nodes ==> it will show the list of nodes running in kuberenetes 
+#### 3) kubectl get nodes ==> it will show the list of nodes running in kuberenetes 
 
 ```
 output:
