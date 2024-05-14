@@ -59,3 +59,38 @@ NAME             READY   UP-TO-DATE   AVAILABLE   AGE
 hello-minikube   0/1     1            0           18s
 
 ```
+
+#### 5) kubectl expose deployment hello-minikube --type=NodePort --port=8080 ==> it will exposed the deployment as a service
+
+
+```
+
+output:
+
+service/hello-minikube exposed
+
+```
+
+#### 6) minikube service hello-minikube --url ==> it will provide url where you can see the output of your kube
+
+```
+output:
+
+http://192.168.49.2:32558
+
+````
+
+#### 7) kubectl delete deployment hello-minikube ==> it will delete the deployed application from kube 	
+
+
+```
+output:
+
+deployment.apps "hello-minikube" deleted
+
+```
+
+> kubectl get deployment
+
+``` No resources found in default namespace. ```
+
