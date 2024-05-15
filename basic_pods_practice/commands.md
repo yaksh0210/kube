@@ -1,3 +1,5 @@
+## Practice
+
 #### 1) kubectl run nginx --image=nginx ==> We will run the command cube model run nginx, which is the name of the pod dash dash image equals to nginx. Now here is where we specify the Docker image to be used.
 
 ```

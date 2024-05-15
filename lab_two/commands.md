@@ -1,4 +1,4 @@
-### practice 
+## Lab Replica Set
 
 #### 1) How many PODs exist on the system?
 

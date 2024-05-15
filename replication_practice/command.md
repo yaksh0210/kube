@@ -1,4 +1,4 @@
-### Perfomred commands
+## Practice
 
 > kubectl create -f replicaset.yml 
 
