@@ -129,9 +129,9 @@ Ans: BusyBox888
 #### 9) Create a new Deployment with the below attributes using your own deployment definition file.
 
 
-*Name: httpd-frontend;
-*Replicas: 3;
-*Image: httpd:2.4-alpine
+* Name: httpd-frontend;
+* Replicas: 3;
+* Image: httpd:2.4-alpine
 
 * first we create a yml file and then 
 
