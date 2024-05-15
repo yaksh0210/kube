@@ -31,3 +31,10 @@ NAME               READY   UP-TO-DATE   AVAILABLE   AGE
 myapp-deployment   0/6     6            0           96s
 
 ```
+> kubectl rollout history deployment.apps/myapp-deployment 
+
+```
+REVISION  CHANGE-CAUSE
+1         <none>
+
+```
