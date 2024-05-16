@@ -4,7 +4,7 @@ metadata:
   name: myapp-deployment
   labels:
     tier: frontend
-    app: nginx
+    app: myapp
 spec:
   selector:
     matchLabels:
@@ -17,5 +17,5 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: nginx
+      - name: nginx:1.18
         image: nginx
